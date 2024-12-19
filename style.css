@@ -77,7 +77,7 @@ html::-webkit-scrollbar-thumb {
     color: var(--main-color);
     display: none;
 }
-@media (max-width:995px){
+@media (min-width:320px){
     #menu-icon {
         display: block;
     }
@@ -254,14 +254,13 @@ span {
         gap: 4rem;
     }
 }
-@media (max-width:995px){
+@media (min-width:320px){
     .home {
         flex-direction: column;
         margin: 5rem 4rem;
     }
     .home .home-content {
         font-size: 4rem;
-        overflow:auto;
     }
     .home .home-content h3 {
         font-size: 2.5rem;
@@ -294,6 +293,7 @@ span {
     border-radius: 3rem;
     cursor: pointer;
     transition: 0.3s ease;
+    overflow: auto;
 }
 .service-box:hover {
     background-color: black;
@@ -321,15 +321,12 @@ span {
     max-height: 100px;
     margin: auto;
 }
-@media (max-width:991px) {
+@media (min-width:320px) {
     section {
         padding: 10rem 3% 2rem;
     }
     .services {
         padding-bottom: 7rem;
-    }
-    .service-box {
-        padding: 10px;
     }
 }
 @media (max-width:895px) {
@@ -632,7 +629,7 @@ span {
         margin: 0 5rem;
     }
 }
-@media (max-width:991px) {
+@media (min-width:320px) {
     .header {
         padding: 2rem 3%;
     }
