@@ -261,6 +261,7 @@ span {
     }
     .home .home-content {
         font-size: 4rem;
+        overflow:auto;
     }
     .home .home-content h3 {
         font-size: 2.5rem;
